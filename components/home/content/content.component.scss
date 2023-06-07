@@ -18,3 +18,15 @@
     max-width: 75%;
   }
 }
+
+@media (max-width: 480px) {
+  .content {
+    &__heading {
+      padding: 1rem;
+    }
+
+    &__text {
+      max-width: max-content;
+    }
+  }
+}

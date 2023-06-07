@@ -94,6 +94,7 @@
     }
 
     &__list {
+      overflow: hidden;
       width: 100%;
       flex-wrap: nowrap;
       border-top: 1px solid var(--light-gray);
