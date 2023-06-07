@@ -1,0 +1,9 @@
+<div class="content-card">
+  <div class="content-card__content" *ngFor="let service of service">
+    <div class="content-card__image" style="background-image: url('{{service.imagePath}}');"></div>
+    <div class="content-card__text">
+      <p class="content-card__title">{{service.title}}</p>
+      <p class="content-card__description">{{service.description}}</p>
+    </div>
+  </div>
+</div>

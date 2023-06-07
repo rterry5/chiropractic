@@ -1,0 +1,60 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1440px;
+  padding: 2rem;
+  font-size: 0.875rem;
+  background-color: var(--background-gray);
+  border-top: 1px solid var(--light-gray);
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__item {
+    text-decoration: none;
+  }
+
+  &__address, &__contact {
+    margin: 0;
+  }
+
+  &__email, &__phone {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  &__icon {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+  }
+
+  &__map {
+    font-size: 0.75rem;
+  }
+
+  &__hours-wrapper {
+    display: flex;
+  }
+
+  &__days {
+    margin-right: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    flex-wrap: wrap;
+
+    &__hours {
+      width: 100%;
+    }
+
+  }
+}

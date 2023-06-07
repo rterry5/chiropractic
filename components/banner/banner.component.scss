@@ -1,0 +1,35 @@
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--blue);
+
+  &__link {
+
+  }
+
+  &__contact {
+    display: flex;
+  }
+
+  &__icon {
+    height: 20px;
+    margin-right: 5px;
+  }
+
+  &__address {
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    color: var(--white);
+  }
+
+  &__phone {
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+    color: var(--white);
+  }
+}
+
+
