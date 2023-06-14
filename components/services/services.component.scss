@@ -1,0 +1,33 @@
+.services {
+  max-width: 1140px;
+  margin: auto;
+
+  &__heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+
+  &__title {
+    margin: 0;
+    padding: 0;
+  }
+
+  &__text {
+    max-width: 75%;
+  }
+}
+
+@media (max-width: 480px) {
+  .services {
+    &__heading {
+      padding: 1rem;
+    }
+
+    &__text {
+      max-width: max-content;
+    }
+  }
+}

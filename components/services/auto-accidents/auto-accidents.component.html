@@ -1,0 +1,10 @@
+<app-header [headerTitle]="autoHeaderTitle" [headerText]="autoHeaderText" [style.background-image]="backgroundImage"></app-header>
+<div class="auto-accidents page">
+  <div class="auto-accidents__content">
+    <h1 class="auto-accidents__title">{{title}}</h1>
+    <div class="auto-accidents__section" *ngFor="let content of content">
+      <h2 class="auto-accidents__subtitle">{{content.subtitle}}</h2>
+      <div [innerHtml]="content.paragraph">{{content.paragraph}}</div>
+    </div>
+  </div>
+</div>

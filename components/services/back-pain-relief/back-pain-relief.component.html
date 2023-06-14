@@ -1,0 +1,10 @@
+<app-header [headerTitle]="backHeaderTitle" [headerText]="backHeaderText" [style.background-image]="backgroundImage"></app-header>
+<div class="back-pain page">
+  <div class="back-pain__content">
+    <h1 class="back-pain__title">{{title}}</h1>
+    <div class="back-pain__section" *ngFor="let content of content">
+      <h2 class="back-pain__subtitle">{{content.subtitle}}</h2>
+      <p class="back-pain__paragraph" [innerHtml]="content.paragraph">{{content.paragraph}}</p>
+    </div>
+  </div>
+</div>

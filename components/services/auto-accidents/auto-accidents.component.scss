@@ -1,0 +1,9 @@
+.auto-accidents {
+  &__paragraph {
+    &--italic {
+      display: block;
+      font-style: italic;
+      font-weight: 600;
+    }
+  }
+}

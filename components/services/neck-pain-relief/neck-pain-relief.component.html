@@ -1,0 +1,10 @@
+<app-header [headerTitle]="neckHeaderTitle" [headerText]="neckHeaderText" [style.background-image]="backgroundImage"></app-header>
+<div class="neck-pain page">
+  <div class="neck-pain__content">
+    <h1 class="neck-pain__title">{{title}}</h1>
+    <div class="neck-pain__section" *ngFor="let content of content">
+      <h2 class="neck-pain__subtitle">{{content.subtitle}}</h2>
+      <p class="neck-pain__paragraph" [innerHtml]="content.paragraph">{{content.paragraph}}</p>
+    </div>
+  </div>
+</div>

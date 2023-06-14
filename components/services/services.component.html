@@ -1,1 +1,8 @@
-<p>services works!</p>
+<app-header [headerTitle]="servicesHeaderTitle" [headerText]="servicesHeaderText" [style.background-image]="backgroundImage"></app-header>
+<div class="services">
+  <div class="services__heading">
+    <h1 class="services__title">Services</h1>
+    <p class="services__text">Dr. Rivas is an experienced Salem chiropractor with 30+ years of knowledge in spinal and chiropractic adjustments. The purpose of spinal adjustments is to return the spine to a natural state of health and to reduce pain, muscle spasms, and nerve irritation, so you can enjoy your life pain free. We provide treatment for all areas including the following:</p>
+  </div>
+</div>
+<app-content-card [service]="chiroServices"></app-content-card>
