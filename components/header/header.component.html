@@ -1,7 +1,7 @@
-<div class="header">
+<div class="header" *ngIf="headerTitle">
   <div class="header__content">
-    <p class="header__title">Mid-Valley Chiropractic Center</p>
-    <span class="header__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
-    <button class="header__button">Book an Appointment</button>
+    <p class="header__title">{{headerTitle}}</p>
+    <span class="header__text">{{headerText}}</span>
+    <button  *ngIf="buttonLink" class="header__button">Book an Appointment</button>
   </div>
 </div>

@@ -1,32 +1,25 @@
 .content {
-  max-width: 1440px;
+  max-width: 1140px;
+  display: flex;
+  padding: 2rem;
+  gap: 2rem;
+  margin: auto;
 
-  &__heading {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  &__section {
+    border-radius: 4px;
+    width: calc(100% / 3);
+    box-shadow: 0 1px 2px 0 var(--light-gray);
     padding: 2rem;
-  }
-
-  &__title {
-    margin: 0;
-    padding: 0;
-  }
-
-  &__text {
-    max-width: 75%;
+    background-color: var(--background-gray);
   }
 }
 
 @media (max-width: 480px) {
   .content {
-    &__heading {
-      padding: 1rem;
-    }
+    flex-direction: column;
 
-    &__text {
-      max-width: max-content;
+    &__section {
+      width: auto;
     }
   }
 }

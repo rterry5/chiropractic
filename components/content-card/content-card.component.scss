@@ -1,7 +1,6 @@
 .content-card {
   display: flex;
-  // width: calc(100% - 4rem);
-  max-width: 1000px;
+  max-width: 1140px;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
@@ -12,7 +11,7 @@
   &__content {
     display: flex;
     flex-direction: column;
-    width: calc((100% / 3) - 1rem);
+    width: calc(25% - 2rem);
     background-color: var(--white);
     box-shadow: 0 1px 2px 0 var(--light-gray);
     border-radius: 4px;
@@ -39,7 +38,7 @@
   &__image {
     background-size: cover;
     background-position: center;
-    height: 200px;
+    height: 150px;
     border-radius: 4px 4px 0 0;
   }
 }

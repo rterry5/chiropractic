@@ -1,0 +1,40 @@
+.about {
+  &__section {
+    &--doctor {
+      display: flex;
+
+      .about {
+        &__subtitle {
+          margin: 0;
+        }
+
+        &__section-content {
+          margin: 0 2rem;
+        }
+      }
+
+      img {
+        width: 100%;
+        max-height: 500px;
+        border-radius: 4px;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+    &__section {
+
+      &--doctor {
+        flex-wrap: wrap;
+
+        .about {
+          &__section-content {
+            margin: 2rem 0 0;
+          }
+        }
+      }
+    }
+  }
+}

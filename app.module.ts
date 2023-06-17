@@ -14,11 +14,15 @@ import { HeaderComponent } from './components/header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BannerComponent } from './components/banner/banner.component';
 import { ContentComponent } from './components/home/content/content.component';
-import { ContentCardComponent } from './components/home/content-card/content-card.component';
+import { ContentCardComponent } from './components/content-card/content-card.component';
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
-import { ServicesComponent } from './components/services/services.component';
 import { IntroSectionComponent } from './components/home/intro-section/intro-section.component';
+import { AutoAccidentsComponent } from './components/services/auto-accidents/auto-accidents.component';
+import { BackPainReliefComponent } from './components/services/back-pain-relief/back-pain-relief.component';
+import { SportsInjuriesComponent } from './components/services/sports-injuries/sports-injuries.component';
+import { NeckPainReliefComponent } from './components/services/neck-pain-relief/neck-pain-relief.component';
+import { ServicesComponent } from './components/services/services.component';
 
 @NgModule({
   declarations: [
@@ -32,8 +36,12 @@ import { IntroSectionComponent } from './components/home/intro-section/intro-sec
     ContentCardComponent,
     AboutComponent,
     ContactComponent,
-    ServicesComponent,
     IntroSectionComponent,
+    AutoAccidentsComponent,
+    BackPainReliefComponent,
+    SportsInjuriesComponent,
+    NeckPainReliefComponent,
+    ServicesComponent,
 
   ],
   imports: [

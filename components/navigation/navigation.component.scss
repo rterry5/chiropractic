@@ -4,6 +4,8 @@
   align-items: center;
   background-color: var(--white);
   padding: 1rem;
+  max-width: 1140px;
+  margin: auto;
 
   &__logo {
     display: flex;
@@ -24,10 +26,11 @@
   &__list {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    list-style: none;
+    text-align: center;
+    white-space: nowrap;
   }
 
   &__dropdown-content {
@@ -85,6 +88,8 @@
 
 @media (max-width: 480px) {
   .nav {
+    position: relative;
+    scroll-behavior: smooth;
     flex-wrap: wrap;
     padding: 0;
     justify-content: center;
@@ -94,10 +99,11 @@
     }
 
     &__list {
-      overflow: hidden;
-      width: 100%;
+      display: flex;
       flex-wrap: nowrap;
-      border-top: 1px solid var(--light-gray);
+      overflow-x: auto;
+      text-align: center;
+      white-space: nowrap;
     }
 
     &__item {

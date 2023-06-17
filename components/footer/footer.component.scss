@@ -2,11 +2,19 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  max-width: 1440px;
   padding: 2rem;
   font-size: 0.875rem;
   background-color: var(--background-gray);
   border-top: 1px solid var(--light-gray);
+  margin: auto;
+
+  &__content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: auto;
+  }
 
   &__list {
     display: flex;
@@ -51,6 +59,10 @@
 @media (max-width: 480px) {
   .footer {
     flex-wrap: wrap;
+
+    &__content {
+      flex-wrap: wrap;
+    }
 
     &__hours {
       width: 100%;
