@@ -2,6 +2,8 @@
   <div class="header__content">
     <p class="header__title">{{headerTitle}}</p>
     <span class="header__text">{{headerText}}</span>
-    <button  *ngIf="buttonLink" class="header__button">Book an Appointment</button>
+    <a href="{{bookAppointmentLink}}">
+      <button *ngIf="buttonLink" class="header__button">Book an Appointment</button>
+    </a>
   </div>
 </div>

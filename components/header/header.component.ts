@@ -16,9 +16,12 @@ export class HeaderComponent implements OnInit {
   @Input()
   headerText: string;
 
+  bookAppointmentLink: string;
+
   constructor() { }
 
   ngOnInit(): void {
+    this.bookAppointmentLink = 'https://practice.chirotouch.com/portal/MidValleyChiropracticCenter#/book-appointment';
   }
 
 }

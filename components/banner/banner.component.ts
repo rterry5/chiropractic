@@ -7,9 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BannerComponent implements OnInit {
 
+  bookAppointmentLink: string;
+
   constructor() { }
 
   ngOnInit(): void {
+    this.bookAppointmentLink = 'https://practice.chirotouch.com/portal/MidValleyChiropracticCenter#/book-appointment';
   }
 
 }

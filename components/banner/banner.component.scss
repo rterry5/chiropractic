@@ -24,13 +24,22 @@
     align-items: center;
     padding: 0 1rem;
     color: var(--white);
+    
+    a {
+      color: var(--white);
+      text-decoration: none;
+    }
   }
 
   &__phone {
     display: flex;
     align-items: center;
     padding: 0 2rem;
-    color: var(--white);
+
+    a {
+      color: var(--white);
+      text-decoration: none;
+    }
   }
 }
 
