@@ -19,7 +19,7 @@ export class ContentComponent implements OnInit {
     ),
     new Content(
       'Hablamos Español',
-      'We encourage you to contact our Salem chiropractic office by phone or send us a message via email. If you have any questions or comments, please feel free to get in touch. We\'re always happy to hear from you!',
+      'Nosotros le recomendamos que se comuniquen a nuestra oficina quiropráctica de Salem por teléfono, o mándenos un mensaje electrónico. Si tiene algunas preguntas o comentarios, por favor, no dude en ponerse en contacto. Siempre estamos felices de saber de ustedes. ¡Muchas gracias!',
     ),
   ];
 

@@ -56,7 +56,7 @@ export class AutoAccidentsComponent implements OnInit {
   ngOnInit(): void {
     this.backgroundImage = 'url(' + 'assets/images/auto-accident.jpg' + ')';
     this.buttonLink = false;
-    this.autoHeaderTitle = 'Chiropractic for Auto Accident Injuries';
+    this.autoHeaderTitle = 'Contact Our Office';
     this.autoHeaderText = 'Mid-Valley Chiropractic Center provides diversified techniques to treat chronic pain, headaches, disc disorders, sports injuries, and auto accident injuries';
   }
 

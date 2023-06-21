@@ -1,1 +1,14 @@
-<p>contact works!</p>
+<app-header [buttonLink]="buttonLink" [headerTitle]="contactHeaderTitle" [headerText]="contactHeaderText" [style.background-image]="backgroundImage"></app-header>
+<div class="contact page">
+  <div class="contact__content">
+    <h1 class="contact__title">{{title}}</h1>
+    <div class="contact__section">
+      <div class="contact__paragraph">
+        Rather than treating the symptoms of pain with pain relief medicine, we treat the pain at the source. To contact our chiropractic office in Salem and to set up an appointment with Dr. Rivas, call us at <a href="tel:503-315-8448">503-315-8448</a> or <a href="mailto:mvcc.salem@gmail.com">send us a message!</a>!
+      </div>
+      <a class="contact__link" href="{{bookAppointmentLink}}">
+        <button class="contact__button">Book an Appointment</button>
+      </a>
+    </div>
+  </div>
+</div>
