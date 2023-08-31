@@ -47,8 +47,7 @@ export class AutoAccidentsComponent implements OnInit {
     ),
     new Content(
       'Contact Us',
-      `If you are suffering from back pain and would like to meet with Dr. Rivas to discuss a treatment plan for back pain relief, schedule a complimentary 10-minute consultation with our chiropractor in Salem by calling
-      <strong>503-315-8448</strong> or by sending us a message.`,
+      `If you are suffering from back pain and would like to meet with Dr. Rivas for an evaluation for back pain relief, schedule by calling <strong>503-315-8448</strong>.`,
     ),
   ];
   constructor() { }
@@ -57,7 +56,7 @@ export class AutoAccidentsComponent implements OnInit {
     this.backgroundImage = 'url(' + 'assets/images/auto-accident.jpg' + ')';
     this.buttonLink = false;
     this.autoHeaderTitle = 'Contact Our Office';
-    this.autoHeaderText = 'Mid-Valley Chiropractic Center provides diversified techniques to treat chronic pain, headaches, disc disorders, sports injuries, and auto accident injuries';
+    this.autoHeaderText = 'Mid-Valley Chiropractic Center provides a variety of techniques to treat chronic pain, headaches, disc disorders, sports injuries, and auto accident injuries';
   }
 
 }

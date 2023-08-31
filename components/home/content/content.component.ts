@@ -11,11 +11,7 @@ export class ContentComponent implements OnInit {
   content: Content[] = [
     new Content(
       'Auto Accident Injuries',
-      'Our team understands the stress and pain patients are in following personal and auto injury accidents. We analyze, diagnose, and create an individualized treatment plan for whiplash and soft tissue injuries. We will thoroughly explain your treatment and update your insurance agency on your behalf.',
-    ),
-    new Content(
-      'Work Related Injuries',
-      'Most work injuries are caused by overuse and repetitive stress injuries. Overtime, small tasks done with poor posture can lead to acute and chronic pain, which can result in reduced worker productivity, lost time from work, disability, and an inability to perform job tasks.',
+      'Our team understands the stress and pain patients are in following personal and auto injury accidents. We analyze, diagnose, and create an individualized treatment plan for whiplash and soft tissue injuries.',
     ),
     new Content(
       'Hablamos Español',

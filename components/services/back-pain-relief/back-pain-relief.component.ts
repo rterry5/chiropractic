@@ -43,8 +43,7 @@ export class BackPainReliefComponent implements OnInit {
     ),
     new Content(
       'Contact Us',
-      `If you are suffering from back pain and would like to meet with Dr. Rivas to discuss a treatment plan for back pain relief, schedule a complimentary 10-minute consultation with our chiropractor in Salem by calling
-      <strong>503-315-8448</strong> or by sending us a message.`,
+      `If you are suffering from back pain and would like to meet with Dr. Rivas to discuss a treatment plan for back pain relief, schedule by calling <strong>503-315-8448</strong>.`,
     ),
   ];
 
@@ -54,7 +53,7 @@ export class BackPainReliefComponent implements OnInit {
     this.backgroundImage = 'url(' + 'assets/images/back-pain.jpg' + ')';
     this.buttonLink = false;
     this.backHeaderTitle = 'Spinal Adjustments and Back Pain Relief';
-    this.backHeaderText = 'Mid-Valley Chiropractic Center provides diversified techniques to treat chronic pain, headaches, disc disorders, sports injuries, and auto accident injuries';
+    this.backHeaderText = 'Mid-Valley Chiropractic Center provides many chiropractic techniques to treat chronic pain, headaches, disc disorders, sports injuries, and auto accident injuries';
   }
 
 }

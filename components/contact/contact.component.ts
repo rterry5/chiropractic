@@ -24,7 +24,7 @@ export class ContactComponent implements OnInit {
     this.backgroundImage = 'url(' + 'assets/images/office-entrance.jpg' + ')';
     this.buttonLink = true;
     this.contactHeaderTitle = 'Contact Our Office';
-    this.contactHeaderText = 'Mid-Valley Chiropractic Center provides diversified techniques to treat chronic pain, headaches, disc disorders, sports injuries, and auto accident injuries';
+    this.contactHeaderText = 'Mid-Valley Chiropractic Center provides many chiropractic techniques to treat chronic pain, headaches, disc disorders, sports injuries, and auto accident injuries';
     this.bookAppointmentLink = 'https://practice.chirotouch.com/portal/MidValleyChiropracticCenter#/book-appointment';
   }
 

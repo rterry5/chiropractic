@@ -46,7 +46,7 @@ export class NeckPainReliefComponent implements OnInit {
     ),
     new Content(
       'Contact Us',
-      `Rather than treating the symptoms of neck pain with pain relief medicine, we treat the pain at the source. To contact our chiropractic office in Salem and to set up your complimentary 10-minute consultation with Dr. Rivas, call us at <strong>503-315-8448</strong> or send us a message!`,
+      `Rather than treating the symptoms of neck pain with pain relief medicine, we treat the pain at the source. To contact our chiropractic office in Salem call us at <strong>503-315-8448</strong>`,
     ),
   ];
 
@@ -56,7 +56,7 @@ export class NeckPainReliefComponent implements OnInit {
     this.backgroundImage = 'url(' + 'assets/images/chiro-patient.jpg' + ')';
     this.buttonLink = false;
     this.neckHeaderTitle = 'Neck Pain Relief';
-    this.neckHeaderText = 'Mid-Valley Chiropractic Center provides diversified techniques to treat chronic pain, headaches, disc disorders, sports injuries, and auto accident injuries';
+    this.neckHeaderText = 'Mid-Valley Chiropractic Center provides a variety of techniques to treat chronic pain, headaches, disc disorders, sports injuries, and auto accident injuries';
   }
 
 }

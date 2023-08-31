@@ -21,7 +21,7 @@ export class HomeComponent implements OnInit {
     this.backgroundImage = 'url(' + 'assets/images/header.jpg' + ')';
     this.buttonLink = true;
     this.homeHeaderTitle = 'Mid-Valley Chiropractic Center';
-    this.homeHeaderText = 'Mid-Valley Chiropractic Center provides diversified techniques to treat chronic pain, headaches, disc disorders, sports injuries, and auto accident injuries';
+    this.homeHeaderText = 'Mid-Valley Chiropractic Center provides a variety of techniques to treat chronic pain, headaches, disc disorders, sports injuries, and auto accident injuries';
   }
 
 }

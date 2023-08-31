@@ -22,7 +22,7 @@ export class SportsInjuriesComponent implements OnInit {
     this.backgroundImage = 'url(' + 'assets/images/chiro-room.jpg' + ')';
     this.buttonLink = false;
     this.sportsHeaderTitle = 'Sports Injuries and Pain Relief';
-    this.sportsHeaderText = 'Mid-Valley Chiropractic Center provides diversified techniques to treat chronic pain, headaches, disc disorders, sports injuries, and auto accident injuries';
+    this.sportsHeaderText = 'Mid-Valley Chiropractic Center provides a variety of techniques to treat chronic pain, headaches, disc disorders, sports injuries, and auto accident injuries';
   }
 
 }
